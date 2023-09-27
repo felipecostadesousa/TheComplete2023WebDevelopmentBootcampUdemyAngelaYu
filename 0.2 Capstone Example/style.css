@@ -1,0 +1,200 @@
+:root {
+    --background1: #e4f9f5;
+    --background2: #11cdd4;
+    --background3: #66bfbf;
+    --textcolour1: #ffffff;
+    --textcolour2: #eaf6f6;
+    --textcolour3: #66bfbf;
+    --textcolour4: #11999e;
+    --textcolour5: #40514e;
+    --textcolour6: #000000;
+    --bordercolor: #eaf6f6;
+}
+
+body{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.top-container{
+    background-color: var(--background1);
+    position: relative;
+    padding-top: 100px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.title-text h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 700;
+    line-height: normal;
+    color: var(--textcolour3);
+    margin-top: 50px auto 0px auto;
+}
+
+.title-text h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour3);
+    margin: 33.2px 0px;
+    padding-bottom: 10px;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.profile{
+    margin: 100px 0;
+}
+
+.profile h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour3);
+    margin: 33.2px 0px;
+    padding-bottom: 10px;
+}
+
+.profile p{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour5);
+    margin: auto;
+    line-height: 2;
+    width: 30%;
+}
+
+hr{
+    border: dotted var(--bordercolor) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills h2{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour3);
+    margin: 33.2px 0px;
+    padding-bottom: 10px;
+}
+
+.parent h3{
+    font-size: 1.17rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    color: var(--textcolour4);
+    margin: 18.72px 0px;
+}
+
+.parent p{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour5);
+    margin: 16px 0px;
+    line-height: 2;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.chillies img{
+    width: 50%;
+    margin-left: 30px;
+}
+
+.contact-me h3{
+    font-size: 1.17rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    color: var(--textcolour4);
+    margin: 18.72px 0px;
+}
+
+.contact-me p{
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: normal;
+    line-height: normal;
+    color: var(--textcolour5);
+    width: 40%;
+    margin: 40px auto 60px;
+    line-height: 2;
+}
+
+.btn{
+    background-color: var(--background2);
+    background-image: linear-gradient(to bottom, var(--background2), var(--textcolour4));
+    color: var(--textcolour1);
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+.bottom-container{
+    background-color: var(--background3);
+    padding: 50px 0 20px;
+    margin-top: 80px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: var(--textcolour4);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+}
+
+.copyright{
+    color: var(--textcolour2);
+    font-size: 0.75rem;
+    font-family: 'Merriweather', serif;
+    margin: 12px 0;
+    padding: 20px 0;
+    line-height: 2;
+}
+
+.footer-link:hover{
+    color: var(--textcolour1);
+}
